@@ -6,10 +6,10 @@ public class kiemtrasonguyento {
         System.out.print("enter");
         int number = scanner.nextInt();
 
-        if (number<2);{
+        if (number<2)
             System.out.println(number+"not is prime number");
 
-        }else{
+        else{
             int i = 2;
             boolean check =true;
             while (i<= Math.sqrt(number)){
